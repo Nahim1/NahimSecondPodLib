@@ -7,12 +7,14 @@
 //
 
 import UIKit
-
+import NahimSecondPodLib
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let auth = Authentication()
+        auth.signIn()
     }
 
     override func didReceiveMemoryWarning() {

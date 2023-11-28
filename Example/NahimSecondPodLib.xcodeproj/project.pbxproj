@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0816F8682C6B4B1EF5A4FFFE /* Pods-NahimSecondPodLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NahimSecondPodLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NahimSecondPodLib_Tests/Pods-NahimSecondPodLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3BDF1E2117AF424A5AA5E54B /* NahimSecondPodLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NahimSecondPodLib.podspec; path = ../NahimSecondPodLib.podspec; sourceTree = "<group>"; };
+		3BDF1E2117AF424A5AA5E54B /* NahimSecondPodLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NahimSecondPodLib.podspec; path = ../NahimSecondPodLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4313C6142517675090C73391 /* Pods_NahimSecondPodLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NahimSecondPodLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AEF54659E2FC28E5F8481EF /* Pods-NahimSecondPodLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NahimSecondPodLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-NahimSecondPodLib_Example/Pods-NahimSecondPodLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* NahimSecondPodLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NahimSecondPodLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,10 +43,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6910B1B59426B09682CFF122 /* Pods-NahimSecondPodLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NahimSecondPodLib_Example.release.xcconfig"; path = "Target Support Files/Pods-NahimSecondPodLib_Example/Pods-NahimSecondPodLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9934CE031B96B8A506923EA8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9934CE031B96B8A506923EA8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		ABF63737D4264FED13116A11 /* Pods_NahimSecondPodLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NahimSecondPodLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC2D7604B6D009E8371CCAD /* Pods-NahimSecondPodLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NahimSecondPodLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-NahimSecondPodLib_Tests/Pods-NahimSecondPodLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C689DEB9DA49CEE2C356FEAE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C689DEB9DA49CEE2C356FEAE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				0816F8682C6B4B1EF5A4FFFE /* Pods-NahimSecondPodLib_Tests.debug.xcconfig */,
 				BDC2D7604B6D009E8371CCAD /* Pods-NahimSecondPodLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -419,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
