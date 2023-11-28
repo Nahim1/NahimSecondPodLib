@@ -15,4 +15,7 @@ public class Authentication {
      func signUp() {
         print("SIGN UP called")
     }
+    public func facebookLogin() {
+        print("facebookLogin called")
+    }
 }
