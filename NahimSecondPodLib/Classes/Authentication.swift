@@ -16,6 +16,6 @@ public class Authentication {
         print("SIGN UP called")
     }
     public func facebookLogin() {
-        print("facebookLogin called")
+        print("facebookLogin called") 
     }
 }

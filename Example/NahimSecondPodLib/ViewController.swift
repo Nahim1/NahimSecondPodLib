@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let auth = Authentication()
         auth.signIn()
+        auth.facebookLogin()
     }
 
     override func didReceiveMemoryWarning() {
